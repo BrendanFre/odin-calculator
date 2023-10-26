@@ -18,21 +18,23 @@
     border: solid 1px gray;
     font-size: 40em;
     text-transform: uppercase;
+    border-radius: 2%;
 }
 
 #display{
     border: solid 1px black;
     height: 10vh;
-    font-size: 7rem;
+    font-size: 2rem;
     text-align: right;
     font-family: 'Courier New', Courier, monospace;
+    padding: 20px 0px;
+    vertical-align: middle;
     
 }
 
 .row{
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
     height: calc(70vh/5);
 }
 
@@ -44,11 +46,20 @@
 .equals{
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
     height: calc(70vh/5);
 }
 
 .equals button{
     width: 40vw;
     font-size: 2rem;
+}
+
+.operators{
+    background-color: orange;
+    border: 0;
+    width: 100%;
+}
+
+.clearing{
+    font-size: 1rem !important;
 }
